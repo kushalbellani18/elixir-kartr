@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "artifacts/api-server/src/vercel-handler.ts",
+      "src": "src/vercel-handler.ts",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "artifacts/api-server/src/vercel-handler.ts"
+      "dest": "src/vercel-handler.ts"
     }
   ]
 }
