@@ -34,7 +34,7 @@ async def contact(form: ContactForm):
             headers={"Authorization": f"Bearer {api_key}"},
             json={
                 "from": "onboarding@resend.dev",
-                "to": "kushalbellani18@gmail.com",
+                "to": "elixirkartr.strategy@zohomail.in",
                 "subject": f"New Consult Request from {form.name}",
                 "html": f"<p><b>Name:</b> {form.name}</p><p><b>Email:</b> {form.email}</p><p><b>Company:</b> {form.company}</p><p><b>Vertical:</b> {form.vertical}</p><p><b>Message:</b> {form.message}</p>"
             }
