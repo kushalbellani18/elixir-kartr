@@ -29,7 +29,7 @@ def health():
 async def contact(form: ContactForm):
     api_key = os.environ.get("RESEND_API_KEY")
     async with httpx.AsyncClient() as client:
-        await client.post(
+        response = await client.post(
             "https://api.resend.com/emails",
             headers={"Authorization": f"Bearer {api_key}"},
             json={
@@ -39,4 +39,5 @@ async def contact(form: ContactForm):
                 "html": f"<p><b>Name:</b> {form.name}</p><p><b>Email:</b> {form.email}</p><p><b>Company:</b> {form.company}</p><p><b>Vertical:</b> {form.vertical}</p><p><b>Message:</b> {form.message}</p>"
             }
         )
-    return {"success": True}
+        print("Resend response:", response.status_code, response.text)
+    return {"success": True, "resend": response.text}
