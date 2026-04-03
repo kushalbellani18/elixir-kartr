@@ -1,0 +1,8 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "VMVSkQiEcuYMC6mNby58z"
+uri = "file://artifacts/elixir-kartr/public/luxury-bg.png"
+type = "image"
+title = "Dark obsidian and gold luxury texture"

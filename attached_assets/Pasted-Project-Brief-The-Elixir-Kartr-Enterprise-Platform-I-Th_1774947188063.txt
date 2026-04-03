@@ -1,0 +1,41 @@
+Project Brief: The Elixir Kartr Enterprise Platform
+
+I. The Core Vision
+We are building a new digital home for Elixir Kartr, a luxury AI/ML strategy firm. This is a complete departure from a personal portfolio. We are creating a "Digital Headquarters" that feels intelligent, stable, and high-end.
+
+II. Design Language
+	- Aesthetic: Dark Mode luxury. Deep charcoal backgrounds with "Glassmorphism" layers.
+	- The Hero: The Gold Mandala (attached) is the heart of the brand.
+	- Motion: Use Framer Motion for smooth, "liquid" transitions. Nothing should snap; everything should glide.
+
+III. Technical Architecture & Solutions
+The site must showcase our deep engineering expertise across five specific industry "Verticals." Please build these as clean, interactive components using the following data:
+1. Fitness & Sport 
+	- Workout Form Analysis: Video Intelligence for pose and keypoint detection.
+	- Personalized Training: Multimodal recommendations (Video + Audio + User Data).
+	- Wearable Analytics: Audio and sensor data processing.
+2. Media & Entertainment 
+	- Content Intelligence: NLP and Multimodal recommendation engines.
+	- Video Analysis: Automated classification and summarization.
+	- 3D Generative AI: Image-to-3D and Text-to-3D context creation.
+3. Finance (Wall Street) 
+	- Sentiment Analysis: Multimodal processing of Audio and Text.
+	- Market Microstructure: Advanced Reinforcement Learning (RL) models.
+	- Portfolio Optimization: RL-driven asset management.
+4. Real Estate 
+	- Property Valuation: Combining Computer Vision with Tabular data.
+	- Virtual Property Tours: Video Intelligence integrated with 3D AI.
+	- Maintenance Prediction: Computer Vision paired with IoT sensor data.
+5. Manufacturing 
+	- Quality Control: Computer Vision for defect detection.
+	- Predictive Maintenance: Time-series forecasting for machinery.
+	- Strategic Optimization: RL for Production and Supply Chain forecasting.
+
+IV. Step-by-Step Implementation
+	1. Framework: Setup a clean React.js/Next.js environment.
+	2. 3D Element: Integrate a Three.js interactive Mandala in the Hero section that reacts to the user's cursor.
+	3. Copywriting: Change all "I" references to "We" or "Elixir Kartr" to establish a corporate presence.
+	4. The "In-Person" Hook: Create a prominent CTA for "Request an In-Person Consult." We want to move conversations away from LinkedIn and into real-world meetings. (like mail sent me)
+
+V. Final Deliverable
+A high-performance, responsive web application that proves Elixir Kartr is the gold standard in AI/ML Engineering and Strategic Thinking.
